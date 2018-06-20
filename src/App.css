@@ -1,4 +1,6 @@
-*{box-sizing: border-box}
+*{
+  box-sizing: border-box
+}
 
 .App {
   text-align: center;
@@ -12,12 +14,17 @@
 }
 
 .smallimage{
-  border: 5px black solid;
   max-width: 100px;
   max-height: 100px;
   opacity: .6;
   margin:0 auto
 }
+
+.smallimage:hover{
+  opacity: 1;
+  border: 5px black solid;
+}
+
 div{
   display:block;
   max-width: 600px;
