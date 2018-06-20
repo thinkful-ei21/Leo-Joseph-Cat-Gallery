@@ -1,0 +1,26 @@
+*{box-sizing: border-box}
+
+.App {
+  text-align: center;
+}
+
+.largeimage{
+  max-width: 300px;
+  max-height: 300px;
+  border: 5px black solid;
+  margin:10 auto;
+}
+
+.smallimage{
+  border: 5px black solid;
+  max-width: 100px;
+  max-height: 100px;
+  opacity: .6;
+  margin:0 auto
+}
+div{
+  display:block;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align:center
+}
